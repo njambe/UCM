@@ -1,0 +1,177 @@
+.update_progress{
+    display:none;
+    color: #119211;
+    max-height: 135px;
+    overflow-y:auto;
+}
+.update_progress.error{
+    color: #FF0000;
+    font-weight: bold;
+}
+#upgrade_table th,
+#upgrade_table td.plugin_name{
+    white-space: nowrap;
+}
+#upgrade_table th.progress{
+    width:60%;
+}#show_completed_tasks{
+    display: none;
+}
+.task_column{
+    
+}
+
+.task_percentage{
+    position: absolute;
+    height:18px;
+    z-index: 4;
+}
+.task_percentage_label{
+    position: absolute;
+    z-index: 3;
+    color: #CCC;
+    text-align: right;
+}
+.task_percentage_bar{
+    z-index: 2;
+    position: absolute;
+    background-color: #EFEFEF;
+    height:18px;
+}
+.task_description{
+    position: absolute;
+    margin-left: 3px;
+    z-index: 4;
+}
+.task_edit{
+    background: #c3d4ff;
+}
+
+.job_task_staff_list{
+    width:60px;
+}
+
+.edit_task_description{
+    width:90%;
+}
+.edit_task_long_description{
+    width:97%;
+    height: 40px;
+}
+.task_long_description{
+    display:none;
+}
+.task_long_description .edit_task_long_description{
+    margin:4px 0 0 0 !important;
+}
+.task_toggle_long_description{
+    display: inline-block;
+}
+.edit_task_order{
+    width:86%;
+}
+#create_invoice_button{
+    display:block;
+    text-align: center;
+}
+#create_invoice_button a{
+    margin: 10px 0;
+}
+
+.edit_task_button{
+    padding:5px 10px 0 10px;
+}
+.edit_task_options{
+    vertical-align: top;
+}
+table.tableclass tbody.job_task_wrapper tr.task_editting td  {
+vertical-align: top;
+}
+table.tableclass tbody.job_task_wrapper tr.task_editting td.percentage_edit  {
+vertical-align: middle;
+}
+
+.task_percentage_toggle{
+    cursor: pointer;
+}.invoice_cancel{
+    text-decoration: line-through !important;
+    color: #FF0000 !important;
+}
+.customer_overdue{
+    font-weight: bold;
+}
+.customer_owing{
+    color:#FF0000 !important;
+}
+.customer_paid{
+}.time_field{
+    width:67px;
+}
+
+.ui-timepicker-wrapper {
+	overflow-y: auto;
+	height: 150px;
+	width: 6.5em;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	outline: none;
+	z-index: 10001;
+	margin: 0;
+}
+
+.ui-timepicker-wrapper.ui-timepicker-with-duration {
+	width: 11em;
+}
+
+.ui-timepicker-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ui-timepicker-duration {
+	margin-left: 5px; color: #888;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-duration {
+	color: #888;
+}
+
+.ui-timepicker-list li {
+	padding: 3px 0 3px 5px;
+	cursor: pointer;
+	white-space: nowrap;
+	color: #000;
+	list-style: none;
+	margin: 0;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-selected {
+	background: #fff; color: #000;
+}
+
+li.ui-timepicker-selected,
+.ui-timepicker-list li:hover,
+.ui-timepicker-list .ui-timepicker-selected:hover {
+	background: #1980EC; color: #fff;
+}
+
+li.ui-timepicker-selected .ui-timepicker-duration,
+.ui-timepicker-list li:hover .ui-timepicker-duration {
+	color: #ccc;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled,
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	color: #888;
+	cursor: default;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	background: #f2f2f2;
+}
